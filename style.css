@@ -15,8 +15,8 @@ body {
 }
 
 .mainContainer {
-    height: 600px;
-    width: 600px;
+    height: 300px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -26,14 +26,14 @@ body {
 }
 
 .row {
-    height: 200px;
+    height: 100px;
     display: flex;
 }
 
 
 .cell {
     display: flex;
-    height: 200px;
+    height: 100px;
     flex: 1;
     border: 3px solid gray;
 }
@@ -58,8 +58,8 @@ body {
 
 .btn {
     display: flex;
-    height: 170px;
-    width: 170px;
+    height: 85px;
+    width: 85px;
     margin: auto;
     border: none;
     border-radius: 8px;

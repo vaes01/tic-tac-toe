@@ -71,6 +71,21 @@ groupBtn.forEach((element) => {
             win = 1;
         } else if ((btn3.textContent !== "") && btn3.textContent === btn5.      textContent && btn5.textContent === btn7.textContent) {
             win = 1;
+        } else if (btn1.textContent !== "" && btn2.textContent !== "" && btn3.textContent !== "" && btn4.textContent !== "" && btn5.textContent !== "" && btn6.textContent !== "" && btn7.textContent !== "" && btn8.textContent !== "" && btn9.textContent !== "") {
+            setTimeout(function() {
+                alert("Deu velha!");
+                btn1.textContent = "";
+                btn2.textContent = "";
+                btn3.textContent = "";
+                btn4.textContent = "";
+                btn5.textContent = "";
+                btn6.textContent = "";
+                btn7.textContent = "";
+                btn8.textContent = "";
+                btn9.textContent = "";
+
+                win = 0;
+            }, 10);
         };
 
 
